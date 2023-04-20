@@ -1,0 +1,69 @@
+
+#MyTitle {
+  box-sizing: border-box;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    border: 2px solid black;
+    padding:10px;
+}
+
+.set {
+    box-sizing: border-box;
+    background-color: #c6edc0;
+    width: 25%;
+    float: left;
+    height: 200px;
+    border: 2px solid black;
+    padding-left:15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.set h1 {
+  margin: 0px;
+}
+
+li {
+  border: 1px solid white;
+  height: 20px;
+  width: 80px;
+  background-color: beige;
+  margin: 1px;
+  padding: 1px;
+}
+
+li:hover {
+  background-color: azure;
+}
+
+@media screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .set {
+    width: 50%;
+  }
+  #Bdiv, #Ddiv {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .set {
+    width: 100%;
+  }
+}
+
+ul {
+    list-style-type: none;
+}
+#MyFoot {
+    box-sizing: border-box;
+    width: 100%;
+    clear: both;
+    background-color: lightgrey;
+    text-align: center;
+    border: 2px solid black;
+    padding:10px;
+}
+
